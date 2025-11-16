@@ -1,0 +1,15 @@
+.btn {
+  background: #5a3e1a;
+  border: 2px solid #d7b98e;
+  color: #f7ead1;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Cinzel";
+}
+
+.btn:hover {
+  background-color: #7a5524;
+  transform: scale(1.05);
+}
