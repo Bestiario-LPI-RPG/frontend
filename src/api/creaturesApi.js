@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3001/creature";
+const API_URL = `${process.env.REACT_APP_BACKEND_URL}/creature`;
 
 export const api = {
   async getAll() {
